@@ -1,15 +1,39 @@
 # Roberto's Vim configuration #
 
-![Plugins Demo](demo/demo.gif)
-
 ## Plugins included ##
 * FZF
-* Nerd Commenter
-* Nerd Tree
+* NERD Commenter
+* NERD Tree
 * Easy Motion 
 * You Complete Me
 
-### Quick install ###
+## Usage ##
+### FZF ###
+![Plugins Demo](demo/FZF.gif)
+* `:FZF` to search files   
+
+### NERD Commenter ###
+![Plugins Demo](demo/NERDCommenter.gif)
+* `<leader>cc` to comment out lines   
+
+### NERD Tree ###
+![Plugins Demo](demo/NERDTree.gif)
+* `:NERDTree` to open directory tree    
+* `gT` and `gt` to change tabs   
+While in directory tree:
+* `T` to open file in new tab   
+* `m` to open filesystem menu   
+* `?` to open help menu    
+
+### Easy Motion ###
+![Plugins Demo](demo/EasyMotion.gif)
+* `<leader><leader>s<character to jump into><character spot>`   
+
+### You Complete Me ###
+![Plugins Demo](demo/YouCompleteMe.gif)
+* Just type away, tab to autocomplete.   
+
+## Quick install ##
 1. Install fuzzy finder (OSX: `brew install fzf`)   
 2. Remove vimrc from home directoty `rm .vimrc`    
 3. Clone this repo `git clone https://github.com/robertoodogherty/.vim.git`   
