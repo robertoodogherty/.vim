@@ -1,7 +1,8 @@
 # Roberto's Vim configuration
 
 ### Quick install
-
+* install fuzzy finder    
+`brew install fzf` (for OSX)    
 * remove `.vimrc` from home directory
 * create link from vimrc in this folder to a .vimrc in home directory   
 `ln ~/.vim/vimrc ~/.vimrc`   
