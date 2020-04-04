@@ -8,5 +8,5 @@
 * clone vundle into this git repo    
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`   
 * open vim and run `:PluginInstall`   
-* Follow the YCM installation instructions found here https://github.com/ycm-core/YouCompleteMe#installation  
-
+* Follow the YCM installation instructions found here https://github.com/ycm-core/YouCompleteMe#installation   
+* If you're on OSX ensure you are using mvim. You can look at how we do this in in the config repo alias.sh file https://github.com/robertoodogherty/config   
