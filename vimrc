@@ -9,7 +9,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-
+Plugin 'preservim/nerdcommenter'
 Plugin 'preservim/nerdtree'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'ycm-core/YouCompleteMe'
@@ -26,7 +26,25 @@ filetype plugin indent on    " required
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
+
 set relativenumber
+
+" Set Solarized color
+syntax enable
+set background=dark
+colorscheme solarized
+
+"  NERD COMMENTER """"""""""""""""""""""""""""""""""
+" Usage <leader>cc to comment
+"
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+
+
+
