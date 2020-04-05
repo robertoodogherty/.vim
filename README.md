@@ -6,18 +6,30 @@
 * NERD Tree
 * Easy Motion 
 * You Complete Me
+* Lightline
+* [Multiple Cursors](https://github.com/terryma/vim-multiple-cursors)
 
-## Usage ##
+### Multiple Lines ###
+![Plugins Demo](demo/MultipleCursors.gif)
+How to use:
+* Select pattern through visual. Then `<C-n>` to add cursor to next matching pattern (or `<C-x>` to skip pattern or `<A-n>` to select all or `<C-p>` to unselect current).
+
 ### FZF ###
 ![Plugins Demo](demo/FZF.gif)
+How to use:
 * `:FZF` to search files   
+
+### Lightline ###
+![Lightline Demo](demo/lightline.png)
 
 ### NERD Commenter ###
 ![Plugins Demo](demo/NERDCommenter.gif)
+How to use:
 * `<leader>cc` to comment out lines   
 
 ### NERD Tree ###
 ![Plugins Demo](demo/NERDTree.gif)
+How to use:
 * `:NERDTree` to open directory tree    
 * `gT` and `gt` to change tabs   
 While in directory tree:
@@ -27,10 +39,12 @@ While in directory tree:
 
 ### Easy Motion ###
 ![Plugins Demo](demo/EasyMotion.gif)
+How to use:
 * `<leader><leader>s<character to jump into><character spot>`   
 
 ### You Complete Me ###
 ![Plugins Demo](demo/YouCompleteMe.gif)
+How to use:
 * Just type away, tab to autocomplete.   
 
 ## Quick install ##
