@@ -1,18 +1,18 @@
 # Roberto's Vim configuration #
 
 ## Plugins included ##
-* FZF
-* NERD Commenter
-* NERD Tree
-* Easy Motion 
-* You Complete Me
-* Lightline
+* [Easy Motion](https://github.com/easymotion/vim-easymotion)
+* [FZF](https://github.com/junegunn/fzf)
+* [Lightline](https://github.com/itchyny/lightline.vim)
 * [Multiple Cursors](https://github.com/terryma/vim-multiple-cursors)
+* [NERD Commenter](https://github.com/junegunn/fzf.vim)
+* [NERD Tree](https://github.com/preservim/nerdtree)
+* [You Complete Me](https://github.com/ycm-core/YouCompleteMe)
 
-### Multiple Lines ###
-![Plugins Demo](demo/MultipleCursors.gif)
+### Easy Motion ###
+![Plugins Demo](demo/EasyMotion.gif)
 How to use:
-* Select pattern through visual. Then `<C-n>` to add cursor to next matching pattern (or `<C-x>` to skip pattern or `<A-n>` to select all or `<C-p>` to unselect current).
+* `<leader><leader>s<character to jump into><character spot>`   
 
 ### FZF ###
 ![Plugins Demo](demo/FZF.gif)
@@ -21,6 +21,11 @@ How to use:
 
 ### Lightline ###
 ![Lightline Demo](demo/lightline.png)
+
+### Multiple Cursors ###
+![Plugins Demo](demo/MultipleCursors.gif)
+How to use:
+* Select pattern through visual. Then `<C-n>` to add cursor to next matching pattern (or `<C-x>` to skip pattern or `<A-n>` to select all or `<C-p>` to unselect current).
 
 ### NERD Commenter ###
 ![Plugins Demo](demo/NERDCommenter.gif)
@@ -36,11 +41,6 @@ While in directory tree:
 * `T` to open file in new tab   
 * `m` to open filesystem menu   
 * `?` to open help menu    
-
-### Easy Motion ###
-![Plugins Demo](demo/EasyMotion.gif)
-How to use:
-* `<leader><leader>s<character to jump into><character spot>`   
 
 ### You Complete Me ###
 ![Plugins Demo](demo/YouCompleteMe.gif)
