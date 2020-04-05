@@ -9,6 +9,7 @@
 * [NERD Tree](https://github.com/preservim/nerdtree)
 * [You Complete Me](https://github.com/ycm-core/YouCompleteMe)
 
+## Plugin Specifics  ##
 ### Easy Motion ###
 ![Plugins Demo](demo/EasyMotion.gif)
 How to use:
@@ -56,5 +57,5 @@ How to use:
 6. Open vim and run `:PluginInstall`   
 7. Follow the YCM installation instructions here https://github.com/ycm-core/YouCompleteMe#installation   
 
-### OSX Users
+### Note for OSX Users
 If you're on OSX ensure you are using mvim. You can look at how we do this in in the config repo alias.sh file https://github.com/robertoodogherty/config   
