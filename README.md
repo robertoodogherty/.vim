@@ -12,12 +12,12 @@
 ## Plugin Specifics  ##
 ### Easy Motion ###
 ![Plugins Demo](demo/EasyMotion.gif)   
-How to use:
+How to use:    
 * `<leader><leader>s<character to jump into><character spot>`   
 
 ### FZF ###
 ![Plugins Demo](demo/FZF.gif)   
-How to use:
+How to use:    
 * `:FZF` to search files   
 
 ### Lightline ###
@@ -25,17 +25,17 @@ How to use:
 
 ### Multiple Cursors ###
 ![Plugins Demo](demo/MultipleCursors.gif)   
-How to use:
+How to use:    
 * Select pattern through visual. Then `<C-n>` to add cursor to next matching pattern (or `<C-x>` to skip pattern or `<A-n>` to select all or `<C-p>` to unselect current).
 
 ### NERD Commenter ###
 ![Plugins Demo](demo/NERDCommenter.gif)   
-How to use:
+How to use:    
 * `<leader>cc` to comment out lines   
 
 ### NERD Tree ###
 ![Plugins Demo](demo/NERDTree.gif)   
-How to use:
+How to use:    
 * `:NERDTree` to open directory tree    
 * `gT` and `gt` to change tabs   
 While in directory tree:
@@ -45,7 +45,7 @@ While in directory tree:
 
 ### You Complete Me ###
 ![Plugins Demo](demo/YouCompleteMe.gif)
-How to use:
+How to use:    
 * Just type away, tab to autocomplete.   
 
 ## Quick install ##
