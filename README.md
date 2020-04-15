@@ -33,7 +33,7 @@ How to use:
 ![Plugins Demo](demo/NERDCommenter.gif)   
 How to use:    
 * `<leader>cc` to comment out lines   
-* `<leader>cu` to comment out lines
+* `<leader>cu` remove comment out lines
 
 ### NERD Tree ###
 ![Plugins Demo](demo/NERDTree.gif)   
