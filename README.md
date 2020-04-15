@@ -3,9 +3,10 @@
 ## Plugins included ##
 * [Easy Motion](https://github.com/easymotion/vim-easymotion)
 * [FZF](https://github.com/junegunn/fzf)
+* [FZF.vim](https://github.com/junegunn/fzf.vim)
 * [Lightline](https://github.com/itchyny/lightline.vim)
 * [Multiple Cursors](https://github.com/terryma/vim-multiple-cursors)
-* [NERD Commenter](https://github.com/junegunn/fzf.vim)
+* [NERD Commenter](https://github.com/preservim/nerdcommenter)
 * [NERD Tree](https://github.com/preservim/nerdtree)
 * [You Complete Me](https://github.com/ycm-core/YouCompleteMe)
 
@@ -32,6 +33,7 @@ How to use:
 ![Plugins Demo](demo/NERDCommenter.gif)   
 How to use:    
 * `<leader>cc` to comment out lines   
+* `<leader>cu` to comment out lines
 
 ### NERD Tree ###
 ![Plugins Demo](demo/NERDTree.gif)   
