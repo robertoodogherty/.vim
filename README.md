@@ -1,6 +1,7 @@
 # Roberto's Vim configuration #
 
 ## Plugins included ##
+* [Auto Pairs](https://github.com/jiangmiao/auto-pairs)
 * [Easy Motion](https://github.com/easymotion/vim-easymotion)
 * [FZF](https://github.com/junegunn/fzf)
 * [FZF.vim](https://github.com/junegunn/fzf.vim)
@@ -11,6 +12,10 @@
 * [You Complete Me](https://github.com/ycm-core/YouCompleteMe)
 
 ## Plugin Specifics  ##
+### Auto Pairs ###
+![Auto Pairs Demo](demo/auto-pairs.gif)    
+Automatically creates closing brace, braket, quotation mark, etc.
+
 ### Easy Motion ###
 ![Plugins Demo](demo/EasyMotion.gif)   
 How to use:    
